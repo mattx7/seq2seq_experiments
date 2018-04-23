@@ -5,7 +5,7 @@ import json
 
 from tensorflow.python.framework import dtypes
 from tensorflow.python.ops import variable_scope
-from tensorflow.models.rnn import seq2seq, rnn, rnn_cell
+import seq2seq, rnn, rnn_cell
 
 DEFAULT_LEARNING_RATE = 0.01
 
